@@ -1,0 +1,44 @@
+{
+    "name": {
+      "type": "string",
+      "description": "Name of the category"
+    },
+    "description": {
+      "type": "string",
+      "description": "Description for the bundle category"
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "The name of the workflow bundle"
+          },
+          "description": {
+            "type": "string",
+            "description": "Short description of the functionality provided by the bundle"
+          },
+          "path": {
+            "type": "string",
+            "description": "Relative path from the category folder to the bundle .zip"
+          },
+          "integrations": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "use-cases": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "description": "The specific use case. Should match the category folder."
+            }
+          }
+        },
+        "required": ["name", "description", "path"]
+      }
+    }
+}

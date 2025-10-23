@@ -1,0 +1,31 @@
+{
+  "name": {
+    "type": "string",
+    "description": "Name of the resource repository. Example: IBM Concert workflow bundles"
+  },
+  "description": {
+    "type": "string",
+    "description": "Short description of the resource repository. E.g. what you'd put in a README.md"
+  },
+  "categories": {
+    "type": "array",
+    "items": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The display name of the category"
+        },
+        "path": {
+          "type": "string",
+          "description": "Relative path to the category folder"
+        },
+        "hidden": {
+          "type": "boolean",
+          "description": "If the folder should be hidden and NOT fetched."
+        },
+        "required": ["name", "path"]
+      }
+    }
+  }
+}
