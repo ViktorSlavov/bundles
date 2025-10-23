@@ -1,0 +1,12 @@
+{
+	"$schema": "https://raw.githubusercontent.com/ViktorSlavov/bundles/refs/heads/v2.1.0/schemas/main/schema.json",
+	"name": "Use cases",
+	"description": "Holds bundles with usecases for IBM Concert Workflows",
+	"categories": [{
+		"name": "Resilience",
+		"path": "Resilience"
+	}, {
+		"name": "Compliance",
+		"path": "Compliance"
+	}]
+}

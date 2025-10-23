@@ -1,0 +1,20 @@
+{
+    "name": "Resilience",
+	"description": "Holds flow bundles for Resilience",
+	"entries": [{
+		"name": "AWS EC2 Cloudwatch Metrics Assignment",
+		"description": "Does amazing stuff with AWS EC2 and watches clouds",
+		"path": "AWS_Ec2_Cloudwatch_Metrics_Assessment_WF.zip",
+		"integrations": ["AWS"]
+	}, {
+		"name": "Datadog Application Resilience Sample",
+		"description": "Does data things doggily",
+		"path": "Datadog_Application_Resilience_Sample.zip",
+		"integrations": ["Datadog"]
+	}, {
+		"name": "Prometheus NFR Resilience",
+		"description": "Does things that the Aliens prequels only dreamed about",
+		"path": "Prometheus_NFR_Resilience.zip",
+		"integrations": ["Common"]
+	}]
+}
