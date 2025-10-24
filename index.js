@@ -10,6 +10,8 @@ const ensureManifest = (folder) => {
 	if (!exists) {
 		fs.writeFileSync(currPath, JSON.stringify({}, null, 4));
 	}
+
+	return JSON.parse(fs.readFileSync(currPath));
 }
 
 const readFile = (folder) => {
@@ -67,7 +69,7 @@ const main = () => {
 		rootManifest.categories.push(entry);
 	}
 
-	fs.writeFileSync(path.join('.', 'manifest.json'), JSON.stringify(manifest, null, 4));
+	fs.writeFileSync(path.join('.', 'manifest.json'), JSON.stringify(rootManifest, null, 4));
 
 }
 
