@@ -57,30 +57,6 @@
             "integrations": []
         },
         {
-            "name": "Instana Resilience Sample",
-            "path": "Instana_Resilience_Sample.zip",
-            "description": "Workflow for Instana Resilience Sample",
-            "integrations": []
-        },
-        {
-            "name": "Java Application Discovery",
-            "path": "Java_Application_Discovery.zip",
-            "description": "Workflow for Java Application Discovery",
-            "integrations": []
-        },
-        {
-            "name": "Java Springboot Application Discovery",
-            "path": "Java_Springboot_Application_Discovery.zip",
-            "description": "Workflow for Java Springboot Application Discovery",
-            "integrations": []
-        },
-        {
-            "name": "Jira Resilience Sample",
-            "path": "Jira_Resilience_Sample.zip",
-            "description": "Workflow for Jira Resilience Sample",
-            "integrations": []
-        },
-        {
             "name": "Package and Image Scan Upload",
             "path": "Package_and_Image_Scan_Upload.zip",
             "description": "Workflow for Package and Image Scan Upload",
