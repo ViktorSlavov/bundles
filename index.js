@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const excluded = new Set(['node_modules']);
+const excluded = new Set(['node_modules', '.git', 'schemas']);
 
 const ensureManifest = (folder) => {
 	const currPath = path.join(folder || '', 'manifest.json');
@@ -36,7 +36,7 @@ const main = () => {
 	const content = fs.readdirSync(path.resolve(''), { withFileTypes: true });
 	const folders = content.filter(e => !!e.isDirectory());
 
-	for (let folder of folders.filter(e => e)) {
+	for (let folder of folders.filter(e => !excluded.has(e.name))) {
 		const manifest = ensureManifest(folder.name);
 		ensureCategoryManifestShape(manifest, folder.name);
 		const zips = readZips(folder.name);
@@ -50,7 +50,7 @@ const main = () => {
 			const cleanName = name.replace(/_/g, ' ');
 			manifest.entries.push({
 				name: cleanName,
-				path: name,
+				path: `${name}.zip`,
 				description: `Workflow for ${cleanName}`,
 				integrations: []
 			});

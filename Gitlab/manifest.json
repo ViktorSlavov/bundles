@@ -1,0 +1,12 @@
+{
+    "name": "Gitlab",
+    "description": "Workflows used for Gitlab",
+    "entries": [
+        {
+            "name": "GitLab Fetch Repositories From Group",
+            "path": "GitLab_Fetch_Repositories_From_Group.zip",
+            "description": "Workflow for GitLab Fetch Repositories From Group",
+            "integrations": []
+        }
+    ]
+}

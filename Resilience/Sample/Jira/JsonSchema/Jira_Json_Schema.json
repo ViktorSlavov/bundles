@@ -1,0 +1,114 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "LabelMap",
+    "type": "object",
+
+    "properties": {
+        "Outage_Start_Time": {
+            "type": "string",
+            "description": "Human label for the outage-start timestamp in requestFieldValues"
+        },
+        "Outage_End_Time": {
+            "type": "string",
+            "description": "Human label for the outage-end timestamp in requestFieldValues"
+        },
+        "Issue_Close": {
+            "type": "string",
+            "description": "Human label for the outage-end timestamp in requestFieldValues"
+        },
+        "Priority": {
+            "type": "string",
+            "description": "Human label for the priority field in requestFieldValues"
+        },
+        "Incident_Detection_Time": {
+            "type": "string",
+            "description": "Jira field name for incident detection time"
+        },
+        "Detection_Source": {
+            "type": "string",
+            "description": "Jira field name for detection source"
+        },
+        "Detection_Tools_Monitoring": {
+            "type": "array",
+
+            "items": {
+                "type": "string"
+            },
+            "description": "List of tool names whose appearances should all be normalized to “monitoring”"
+        },
+        "Incident_Start_Day_Time": {
+            "type": "string",
+            "description": "Jira field name for Incident Start Day/Time"
+        },
+        "Time_of_Detection": {
+            "type": "string",
+            "description": "Jira field name for Time of Detection"
+        },
+        "Time_of_Diagnosis": {
+            "type": "string",
+            "description": "Jira field name for Time of Diagnosis"
+        },
+        "Time_of_Mitigation": {
+            "type": "string",
+            "description": "Jira field name for Time of Mitigation"
+        },
+        "Time_of_Escalation_Acknowledgement": {
+            "type": "string",
+            "description": "Jira field name for Time of Escalation Acknowledgement"
+        },
+        "Time_of_Recovery": {
+            "type": "string",
+            "description": "Jira field name for Time of Recovery"
+        },
+        "Time_of_Maintenance_Window_End": {
+            "type": "string",
+            "description": "Jira field name for Time of Maintenance Window End"
+        },
+        "Caused_By_Change": {
+            "type": "string",
+            "description": "Jira field name for issues Caused by Change"
+        },
+        "Severity": {
+            "type": "string",
+            "description": "Jira field name for Issue Severity"
+        },
+        "Outage_Duration_Hrs": {
+            "type": "string",
+            "description": "Jira field name for Outage Duration Hrs"
+        },
+        "Mitigation_Duration_Mins": {
+            "type": "string",
+            "description": "Jira field name for Mitigation Duration Mins"
+        },
+        "Incident_Duration_MTTR_Mins": {
+            "type": "string",
+            "description": "Jira field name for Incident Duration (MTTR) Mins"
+        },
+        "Recovery_Duration_Mins": {
+            "type": "string",
+            "description": "Jira field name for Recovery Duration Mins"
+        },
+        "Detection_Duration_Mins": {
+            "type": "string",
+            "description": "Jira field name for Detection Duration Mins"
+        },
+        "Escalation_Duration_Mins": {
+            "type": "string",
+            "description": "Jira field name for Escalation Duration Mins"
+        },
+        "Diagnose_Duration_Mins": {
+            "type": "string",
+            "description": "Jira field name for Diagnose Duration Mins"
+        },
+        "Planned_Duration_Hrs": {
+            "type": "string",
+            "description": "Jira field name for Planned Duration Hrs"
+        },
+        "Resolution_Duration": {
+            "type": "string",
+            "description": "Jira field name for Resolution Duration"
+        }
+    },
+    "required": [],
+    "additionalProperties": false
+}

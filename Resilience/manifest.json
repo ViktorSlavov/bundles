@@ -1,20 +1,120 @@
 {
     "name": "Resilience",
-	"description": "Holds flow bundles for Resilience",
-	"entries": [{
-		"name": "AWS EC2 Cloudwatch Metrics Assignment",
-		"description": "Does amazing stuff with AWS EC2 and watches clouds",
-		"path": "AWS_Ec2_Cloudwatch_Metrics_Assessment_WF.zip",
-		"integrations": ["AWS"]
-	}, {
-		"name": "Datadog Application Resilience Sample",
-		"description": "Does data things doggily",
-		"path": "Datadog_Application_Resilience_Sample.zip",
-		"integrations": ["Datadog"]
-	}, {
-		"name": "Prometheus NFR Resilience",
-		"description": "Does things that the Aliens prequels only dreamed about",
-		"path": "Prometheus_NFR_Resilience.zip",
-		"integrations": ["Common"]
-	}]
+    "description": "Workflows used for Resilience",
+    "entries": [
+        {
+            "name": "AWS Ec2 Cloudwatch Metrics Assessment WF",
+            "path": "AWS_Ec2_Cloudwatch_Metrics_Assessment_WF.zip",
+            "description": "Workflow for AWS Ec2 Cloudwatch Metrics Assessment WF",
+            "integrations": []
+        },
+        {
+            "name": "Aws EC2 Cloudwatch Metrics Extraction WF",
+            "path": "Aws_EC2_Cloudwatch_Metrics_Extraction_WF.zip",
+            "description": "Workflow for Aws EC2 Cloudwatch Metrics Extraction WF",
+            "integrations": []
+        },
+        {
+            "name": "Containerised App Discovery For VM",
+            "path": "Containerised_App_Discovery_For_VM.zip",
+            "description": "Workflow for Containerised App Discovery For VM",
+            "integrations": []
+        },
+        {
+            "name": "Datadog Application Resilience Sample",
+            "path": "Datadog_Application_Resilience_Sample.zip",
+            "description": "Workflow for Datadog Application Resilience Sample",
+            "integrations": []
+        },
+        {
+            "name": "Datadog Resilience Sample",
+            "path": "Datadog_Resilience_Sample.zip",
+            "description": "Workflow for Datadog Resilience Sample",
+            "integrations": []
+        },
+        {
+            "name": "Dynatrace Resilience Sample",
+            "path": "Dynatrace_Resilience_Sample.zip",
+            "description": "Workflow for Dynatrace Resilience Sample",
+            "integrations": []
+        },
+        {
+            "name": "Dyntrace Application Resilience Sample",
+            "path": "Dyntrace_Application_Resilience_Sample.zip",
+            "description": "Workflow for Dyntrace Application Resilience Sample",
+            "integrations": []
+        },
+        {
+            "name": "EKS CLOUDWATCH METRICS",
+            "path": "EKS_CLOUDWATCH_METRICS.zip",
+            "description": "Workflow for EKS CLOUDWATCH METRICS",
+            "integrations": []
+        },
+        {
+            "name": "Image Registry Workflow",
+            "path": "Image_Registry_Workflow.zip",
+            "description": "Workflow for Image Registry Workflow",
+            "integrations": []
+        },
+        {
+            "name": "Instana Resilience Sample",
+            "path": "Instana_Resilience_Sample.zip",
+            "description": "Workflow for Instana Resilience Sample",
+            "integrations": []
+        },
+        {
+            "name": "Java Application Discovery",
+            "path": "Java_Application_Discovery.zip",
+            "description": "Workflow for Java Application Discovery",
+            "integrations": []
+        },
+        {
+            "name": "Java Springboot Application Discovery",
+            "path": "Java_Springboot_Application_Discovery.zip",
+            "description": "Workflow for Java Springboot Application Discovery",
+            "integrations": []
+        },
+        {
+            "name": "Jira Resilience Sample",
+            "path": "Jira_Resilience_Sample.zip",
+            "description": "Workflow for Jira Resilience Sample",
+            "integrations": []
+        },
+        {
+            "name": "Package and Image Scan Upload",
+            "path": "Package_and_Image_Scan_Upload.zip",
+            "description": "Workflow for Package and Image Scan Upload",
+            "integrations": []
+        },
+        {
+            "name": "Package Vulnerability Exposure Assessment",
+            "path": "Package_Vulnerability_Exposure_Assessment.zip",
+            "description": "Workflow for Package Vulnerability Exposure Assessment",
+            "integrations": []
+        },
+        {
+            "name": "Prometheus NFR Resilience",
+            "path": "Prometheus_NFR_Resilience.zip",
+            "description": "Workflow for Prometheus NFR Resilience",
+            "integrations": []
+        },
+        {
+            "name": "Resilience Helper",
+            "path": "Resilience_Helper.zip",
+            "description": "Workflow for Resilience Helper",
+            "integrations": []
+        },
+        {
+            "name": "Resilience VM Tomcat Java Application",
+            "path": "Resilience_VM_Tomcat_Java_Application.zip",
+            "description": "Workflow for Resilience VM Tomcat Java Application",
+            "integrations": []
+        },
+        {
+            "name": "ServiceNow Resilience Sample",
+            "path": "ServiceNow_Resilience_Sample.zip",
+            "description": "Workflow for ServiceNow Resilience Sample",
+            "integrations": []
+        }
+    ]
 }

@@ -1,0 +1,24 @@
+{
+  "transformedResult": {
+    "mins_mttd": "141.48",
+    "mins_mtta": "20.66",
+    "mins_mttdiagnose": "56.48",
+    "mins_mttmitigate": "267.48",
+    "mins_mttr": "273.93",
+    "mins_mttd_sev1": "3.03",
+    "mins_mtta_sev1": "2.79",
+    "mins_mttdiagnose_sev1": "8.9",
+    "mins_mttmitigate_sev1": "7.14",
+    "mins_mttr_sev1": "10.34",
+    "mins_mttd_sev2": "134.31",
+    "mins_mtta_sev2": "15.79",
+    "mins_mttdiagnose_sev2": "46.55",
+    "mins_mttmitigate_sev2": "259.31",
+    "mins_mttr_sev2": "263.59",
+    "pct_sev1_incidents_by_change": "33.33",
+    "pct_sev1_incidents_detected_by_monitoring": "0",
+    "pct_sev2_incidents_by_change": "50",
+    "pct_sev2_incidents_detected_by_monitoring": "0",
+    "pct_incidents_detected_by_monitoring": "0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Discovery Jobs",
+    "description": "Workflows used for Discovery Jobs",
+    "entries": [
+        {
+            "name": "Re-Run Discovery Ingestion",
+            "path": "Re-Run_Discovery_Ingestion.zip",
+            "description": "Workflow for Re-Run Discovery Ingestion",
+            "integrations": []
+        }
+    ]
+}

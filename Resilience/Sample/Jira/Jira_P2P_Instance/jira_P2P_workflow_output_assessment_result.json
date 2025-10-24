@@ -1,0 +1,36 @@
+{
+  "assessment_result": {
+    "timestamp": "2025-05-29T05:51:06.000Z",
+    "version": "1.0.0",
+    "profile": "nfr_critical_apps_profile",
+    "target_type": "app",
+    "target": "P2P",
+    "origin": "ITSM",
+    "custom_metadata": {
+      "origin_name": "Jira",
+      "origin_url": "https://venksub.atlassian.net/jira/servicedesk/projects/IM"
+    },
+    "data": {
+      "mins_mttd": "0",
+      "mins_mtta": "0",
+      "mins_mttdiagnose": "0",
+      "mins_mttmitigate": "168.75",
+      "mins_mttr": "0",
+      "mins_mttd_sev1": "0",
+      "mins_mtta_sev1": "0",
+      "mins_mttdiagnose_sev1": "0",
+      "mins_mttmitigate_sev1": "0",
+      "mins_mttr_sev1": "0",
+      "mins_mttd_sev2": "0",
+      "mins_mtta_sev2": "0",
+      "mins_mttdiagnose_sev2": "0",
+      "mins_mttmitigate_sev2": "168.75",
+      "mins_mttr_sev2": "0",
+      "pct_sev1_incidents_by_change": "0",
+      "pct_sev1_incidents_detected_by_monitoring": "0",
+      "pct_sev2_incidents_by_change": "0",
+      "pct_sev2_incidents_detected_by_monitoring": "0",
+      "pct_incidents_detected_by_monitoring": "0"
+    }
+  }
+}

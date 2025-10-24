@@ -1,15 +1,30 @@
 {
     "name": "Compliance",
-	"description": "Holds flow bundles for Compliance",
-	"entries": [{
-		"name": "CISO Agentic AI Assessment",
-		"description": "Assigns AI stuff to CISO agents.",
-		"path": "CISO_Agentic_AI_Assessment.zip",
-		"integrations": ["AWS"]
-	}, {
-		"name": "CIS OCP4 OSCO Compliance Scan (1)",
-		"description": "Elegantly integrated business transformations in the shifting landscape of corporate permutations.",
-		"path": "CIS_OCP4_OSCO_Compliance_Scan (1).zip",
-		"integrations": ["Datadog"]
-	}]
+    "description": "Workflows used for Compliance",
+    "entries": [
+        {
+            "name": "CISO Agentic AI Assessment",
+            "path": "CISO_Agentic_AI_Assessment.zip",
+            "description": "Workflow for CISO Agentic AI Assessment",
+            "integrations": []
+        },
+        {
+            "name": "CIS OCP4 OSCO Compliance Scan (1)",
+            "path": "CIS_OCP4_OSCO_Compliance_Scan (1).zip",
+            "description": "Workflow for CIS OCP4 OSCO Compliance Scan (1)",
+            "integrations": []
+        },
+        {
+            "name": "CIS OCP4 OSCO Compliance Scan",
+            "path": "CIS_OCP4_OSCO_Compliance_Scan.zip",
+            "description": "Workflow for CIS OCP4 OSCO Compliance Scan",
+            "integrations": []
+        },
+        {
+            "name": "CIS RHEL9 OpenSCAP Compliance Scan",
+            "path": "CIS_RHEL9_OpenSCAP_Compliance_Scan.zip",
+            "description": "Workflow for CIS RHEL9 OpenSCAP Compliance Scan",
+            "integrations": []
+        }
+    ]
 }
