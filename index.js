@@ -1,7 +1,11 @@
 const fs = require('fs');
 const path = require('path');
 
-const excluded = new Set(['node_modules', '.git', 'schemas']);
+const CONFIG_PATH = 'examples.config.json';
+const configFile = fs.readFileSync(path.resolve(CONFIG_PATH));
+const scriptConfig = JSON.parse(configFile);
+
+const excluded = new Set(scriptConfig.exclude);
 
 const ensureManifest = (folder) => {
 	const currPath = path.join(folder || '', 'manifest.json');

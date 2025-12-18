@@ -1,0 +1,4 @@
+{
+	"exclude": ["node_modules", ".git", "utils", "schemas", "Demo", "Customer"],
+	"provideDependencies": true
+}
